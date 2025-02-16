@@ -56,7 +56,7 @@
 
                 <div class="card-body">
 
-                    <p><img class="rounded" src="src/img/<?= $m["gambar"]; ?>" width="150"></p>
+                    <p><img class="rounded" src="src/img/<?= $m["gambar"]; ?>" width="275"></p>
 
                     <input type="hidden" name="kode_menu<?= $i; ?>" value="<?= $m["kode_menu"]; ?>">
 

@@ -134,7 +134,7 @@ if (isset($_POST["pesan"])) {
 
     <!-- List Menu -->
 
-    <div id="dropdown-menu" class="container-fluid position-fixed float-start bg-dark text-white w-auto vh-100" style="display: none; z-index: 1; top: 50px;">
+    <div id="dropdown-menu" class="container-fluid position-fixed float-start bg-dark text-white w-auto vh-100" style="display: none; z-index: 1; top: 50px; transition:width 4s">
 
         <ul>
 

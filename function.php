@@ -1,7 +1,7 @@
 <?php
 
 
-$koneksi = mysqli_connect("localhost", "root", "", "mie88");
+$koneksi = mysqli_connect("localhost", "root", "", "mieayambangka88");
 
 
 // Funtion Register

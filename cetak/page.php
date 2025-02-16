@@ -33,6 +33,8 @@ $menu = ambil_data("SELECT DISTINCT * FROM pesanan
 </head>
 <body>
     <h1 align="center">Bukti Pembayaran</h1>
+    <h3 align="center" style="font-style: italic">Kedai Mie Ayam Bangka '88' Galaxy</h3>
+    <h5 align="center">Jl. Boulevard Raya Blok RGB 77, Grand Galaxy City.</h5>
     <table class="data-pelanggan">
         <tr>
             <td>Atas Nama</td>
@@ -49,7 +51,7 @@ $menu = ambil_data("SELECT DISTINCT * FROM pesanan
         <tr>
             <th>Daftar Menu</th>
             <th>Harga</th>
-            <th>Qty</th>
+            <th>Jumlah</th>
             <th>Total</th>
         </tr>
         <?php 
@@ -66,7 +68,7 @@ $menu = ambil_data("SELECT DISTINCT * FROM pesanan
     </table><br>
     <table class="pembayaran" cellpadding="3">
         <tr>
-            <th>Total Semuanya</th>
+            <th>Total</th>
             <th>:</th>
             <th>Rp.<?= $total_semuanya; ?></th>
         </tr>
